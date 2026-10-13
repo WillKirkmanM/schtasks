@@ -1,0 +1,10 @@
+[package]
+name = "schtasks"
+version = "0.1.0"
+edition = "2024"
+description = "The Schtasks Command Inspects Saved Windows Task Schedules, Filtering Names and Statuses and Comparing Snapshots to Reveal Schedule Changes"
+license = "MIT"
+keywords = ["parsonlabs", "windows", "cli", "scheduled-tasks"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
